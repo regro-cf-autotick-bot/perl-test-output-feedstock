@@ -1,4 +1,4 @@
-{% set version = "1.033" %}
+{% set version = "1.034" %}
 
 package:
   name: perl-test-output
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/briandfoy/test-output/archive/release-{{ version }}.tar.gz
-  sha256: 35f0a4ef2449fc78886b4c99e1c1d23f432c2fae98538a4489439eb17223bfc2
+  sha256: cc016f9c89d3a22f461cb88318f53b03645eaec4025d483ae3bd52a166af5f72
 
 build:
   number: 0
